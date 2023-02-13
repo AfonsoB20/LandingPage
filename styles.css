@@ -12,6 +12,7 @@ body{
 .headerContainer{
     padding: 0px 20px 0px 20px;
     background-color: rgb(79, 79, 104);
+  
 }
 .headerTop{
     display: flex;
@@ -33,6 +34,7 @@ body{
 .HeaderMain{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     
 }
@@ -56,6 +58,7 @@ body{
 .boxes{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
    
    
 }
@@ -64,7 +67,11 @@ body{
     width: 100px;
     height: 100px;
     
+    
 }
 .boxi{
-    padding: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
